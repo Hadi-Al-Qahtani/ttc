@@ -1,0 +1,33 @@
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        color: #878787;
+    }
+}
+
+h1{
+  color: #fff;
+  font-weight: 600;
+}
+
+.comment{
+  height: 35vh;
+}
+
+.div{
+  display: flex;
+  flex-direction: column;
+  content: center;
+  align-items: center;
+  height: 100vh;
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
